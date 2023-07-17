@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto:ital,wght@1,300&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* header section */
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+background: #FFF;
+margin: auto;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+gap: 30px;
+
+}
+ul li{
+text-decoration: none;
+list-style: none;
+}
+title{
+  color: #3A3A3A;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: normal;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.title-content{
+  margin-top: 40px;
+  color: #3A3A3A;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; }
+
+.discription{
+  color: #3A3A3A;
+font-family: Poppins;
+font-size: 16px;
+padding: 10px;
+font-weight: 600;
+
+}
+.btn-primary{
+  display: inline-flex;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 8px;
+border-radius: 41px;
+background: #E02C6D;
+}
+.img{
+background-image: url(images/Circle\ design.svg);
+width: 440px;
+height: 414px;
+}
